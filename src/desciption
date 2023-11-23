@@ -1,0 +1,43 @@
+The descriotion of lab02
+
+Q1 : details of AirPurifier class
+- what should be instance variables?
+    1.model's name(String name)
+    2.Serialnumber(String Snum)
+    3.power(boolean Power)
+    4.fanspeed(int FanSpeed)
+
+- what should be instance methods?
+    1.turn on(void Turnon(){...})
+    2.turn off (void Turnoff(){...})
+    3.set fan speed(void setfanspeed(int speed){...})
+    4.getSpeed (int getSpeed(){...})
+
+- what should be class variables?
+    1.total of AirPurifier (private static int total)
+    2.All model of AirPurifier (static String[] Allmodel)
+
+- what should be class methods?
+    1.show list of all AirPurifier (private static void Showall(){...})
+    2.Update a number of AirPurifier (private static void UpdateNewAirPurifier(String name){...})
+
+Q2 : overview of the methods's inpkement
+- what's needed as inputs?
+    -> instance methods
+        1.turn on : no input
+        2.turn off : no input
+        3.set fan speed : have non-negative integer as input
+        4.getSpeed : no input
+    -> class methods
+        1.show list of all AirPurifier : have no input
+        2.Update a number of AirPurifier : have String which is a name of Airpurifier as input
+
+- what's to be returned?
+    -> instance methods
+        1.turn on : no output
+        2.turn off : no output
+        3.set fan speed : no output
+        4.getSpeed : integer of fan speed
+    -> class methods
+        1.show list of all AirPurifier : no output
+        2.Update a number of AirPurifier : no output
